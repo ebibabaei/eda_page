@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "EDA Guide kjhjknjklnk"
+title: "EDA Guide"
 
 email: ebabaei@student.unimelb.edu.au
 description: >- # this means to ignore newlines until "baseurl:"
@@ -33,6 +33,7 @@ search_enabled: true
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
